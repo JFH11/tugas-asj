@@ -5,11 +5,11 @@
     flex-direction: column;
     width: 100%;
     height: auto;
+    gap: 10rem;
 }
 
 .h-card {
     position: relative;
-    padding-top: 5rem;
     width: 100%;
     height: auto;
     display: flex;
@@ -17,6 +17,7 @@
     align-items: center;
     justify-content: center;
     padding: 0 15%;
+    margin-top: 10rem;
 }
 
 .h-card h1 {
@@ -30,7 +31,7 @@
 .h-card-2 {
     position: relative;
     width: 100%;
-    margin: 10rem 0;
+    padding: 5rem 0;
 }
 
 .h-card p {
@@ -108,4 +109,25 @@
 
 #fungsi {
     margin-bottom: 10rem;
+}
+
+.contoh-card{
+    position: relative;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.contoh-card-2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+
+.contoh-card-2 img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }

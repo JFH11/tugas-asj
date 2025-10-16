@@ -68,19 +68,9 @@ nav {
     border-radius: 999px;
 }
 
-.nav-links.nav-active {
-  background-color: var(--kuning);
-  color: #000;
-  border-radius: 999px;
-  padding: 0.3rem 0.5rem;
-  transition: background-color .18s ease, transform .18s ease;
-  transform-origin: center;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-}
-
 .nav-links:hover {
-    background: var(--glass);
-    color: var(--putih);
+    background: var(--accent);
+    color: var(--header);
     transition: all 0.3s ease;
 }
 
@@ -713,72 +703,6 @@ footer {
 
 .footer-list-sm li a:hover {
     color: var(--accent);
-}
-
-.footer-form {
-    position: relative;
-    width: max-content;
-    height: max-content;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.footer-form input {
-    position: relative;
-    width: 100%;
-    height: 2.5rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: 1px solid transparent;
-    outline: none;
-    background: var(--hitam);
-    color: var(--desc);
-    font-family: var(--poppins);
-    transition: 0.2s ease-in-out;
-}
-
-.footer-form input:focus {
-    border-color: var(--accent);
-}
-
-.footer-form textarea {
-    position: relative;
-    width: 100%;
-    height: 5rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid transparent;
-    resize: none;
-    background: var(--hitam);
-    color: var(--desc);
-    font-family: var(--poppins);
-    transition: 0.2s ease-in-out;
-}
-
-.footer-form textarea:focus {
-    border-color: var(--accent);
-}
-
-.footer-form button {
-    position: relative;
-    width: 100%;
-    height: 2.5rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: none;
-    background: var(--accent);
-    color: var(--hitam);
-    font-family: var(--poppins);
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-}
-
-.footer-form button:hover {
-    background: var(--kuning);
-    color: var(--header);
-    transform: scale(0.95);
 }
 
 .copyright {

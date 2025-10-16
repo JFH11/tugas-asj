@@ -19,6 +19,11 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/b0ce53bf51.js" crossorigin="anonymous"></script>
 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -40,7 +45,7 @@
     </header>
 
     <div class="container" id="cpanel">
-        <div class="pengertian-cpanel">
+        <div class="pengertian-cpanel" data-aos="fade-left">
             <h1>Control Panel Hosting</h1>
             <p>Control Panel Hosting adalah aplikasi web yang menyediakan alat administrasi untuk layanan hosting:
                 manajemen file (File Manager/FTP), manajemen database (MySQL/MariaDB), konfigurasi domain/DNS,
@@ -48,38 +53,38 @@
                 keamanan.</p>
         </div>
 
-        <div class="dasar-cpanel">
+        <div class="dasar-cpanel" data-aos="fade-right" data-aos-delay="300">
             <h1>Dasar Dasar Control Panel Hosting</h1>
             <p>Adapun dasar-dasar control panel hosting adalah sebagai berikut:</p>
 
 
             <div class="dasar-cpanel-card">
-                <div class="cpanel-card">
+                <div class="cpanel-card" data-aos="fade-in">
                     <h3>1. Antarmuka & Navigasi</h3>
                     <p>Dashboard dan menu untuk akses cepat ke fitur utama.</p>
                 </div>
 
-                <div class="cpanel-card">
+                <div class="cpanel-card" data-aos="fade-in" data-aos-delay="300">
                     <h3>2. Manajemen File</h3>
                     <p>Upload, edit, dan atur permission file serta direktori publik.</p>
                 </div>
 
-                <div class="cpanel-card">
+                <div class="cpanel-card" data-aos="fade-in" data-aos-delay="600">
                     <h3>3. Manajemen Database</h3>
                     <p>Buat, backup, dan kelola database.</p>
                 </div>
 
-                <div class="cpanel-card">
+                <div class="cpanel-card" data-aos="fade-in" data-aos-delay="900">
                     <h3>4. Manajemen Domain</h3>
                     <p>Tambah/atur domain & subdomain serta DNS.</p>
                 </div>
 
-                <div class="cpanel-card">
+                <div class="cpanel-card" data-aos="fade-in" data-aos-delay="1200">
                     <h3>5. Manajemen Email</h3>
                     <p>Buat mailbox, forward, autoresponder, dan konfigurasi MX/SMTP/IMAP.</p>
                 </div>
 
-                <div class="cpanel-card">
+                <div class="cpanel-card" data-aos="fade-in" data-aos-delay="1500">
                     <h3>7. Manajemen Aplikasi</h3>
                     <p>Instalasi, konfigurasi, dan backup aplikasi.</p>
                 </div>
@@ -88,23 +93,21 @@
         </div>
 
         <div class="jenis-cpanel">
-            <h1>Jenis-jenis Control Panel Hosting</h1>
+            <h1 data-aos="fade-in">Jenis-jenis Control Panel Hosting</h1>
 
-            <!-- Tambahkan di <head> jika belum -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
-            <div class="jenis-cpanel-card">
+            <div class="jenis-cpanel-card" data-aos="fade-up">
                 <h3><i class="fa-solid fa-cog"></i> cPanel</h3>
-                <p>cPanel adalah panel kontrol hosting berbasis web yang menyediakan alat lengkap untuk mengelola file, domain, email, database, keamanan, dan backup melalui antarmuka yang intuitif.</p>
+                <p>cPanel adalah panel kontrol hosting berbasis web yang menyediakan alat lengkap untuk mengelola file,
+                    domain, email, database, keamanan, dan backup melalui antarmuka yang intuitif.</p>
             </div>
 
-            <div class="jenis-cpanel-card">
+            <div class="jenis-cpanel-card" data-aos="fade-up" data-aos-delay="300">
                 <h3><i class="fa-solid fa-cubes"></i> EHCP</h3>
                 <p>Easy Hosting Control Panel yang ringan dan gratis, cocok untuk shared hosting dasar dan mudah
                     dipelajari.</p>
             </div>
 
-            <div class="jenis-cpanel-card">
+            <div class="jenis-cpanel-card" data-aos="fade-up" data-aos-delay="600">
                 <h3><i class="fa-solid fa-box-open"></i> Webuzo</h3>
                 <p>Panel untuk VPS/single-server dengan banyak one-click installer, ideal untuk cepat deploy aplikasi
                     populer.</p>
@@ -112,9 +115,8 @@
 
         </div>
 
-        <div class="contoh-cpanel">
+        <div class="contoh-cpanel" data-aos="fade-in">
             <h1>Contoh Control Panel Hosting</h1>
-            <p>Berikut adalah contoh control panel hosting:</p>
             <div class="contoh-container">
                 <img src="img/controlpanel_1.png" loading="lazy" alt="" class="cpanel-img">
             </div>
@@ -124,7 +126,8 @@
     <footer>
         <div class="footer-cont">
             <img src="img/logo.png" class="logo"></img>
-            <p class="footer-desc">Demikian website ini untuk memenuhi tugas mata pelajaran Administrasi Sistem Jaringan
+            <p class="footer-desc">Demikian website ini dibuat untuk memenuhi tugas mata pelajaran Administrasi Sistem
+                Jaringan
                 (ASJ).</p>
         </div>
 
@@ -156,19 +159,20 @@
             </ul>
         </div>
 
-        <div class="footer-cont">
-            <h3>Tinggalkan Pesan</h3>
-            <hr>
-
-            <form class="footer-form">
-                <input type="text" placeholder="Nama kamu" required>
-                <textarea placeholder="Pesan" required></textarea>
-                <button type="submit">Kirim</button>
-            </form>
-        </div>
-
         <div class="copyright">&copy; 2025 Raditya Arjun Fayyadhin</div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                duration: 800,
+                easing: 'ease-out-cubic',
+                once: true,
+                mirror: false
+            });
+        });
+    </script>
 
 </body>
 

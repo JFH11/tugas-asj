@@ -18,12 +18,15 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/b0ce53bf51.js" crossorigin="anonymous"></script>
 
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
 </head>
 
 <body>
 
     <header>
-        <img src="img/logo.png" alt="" class="logo">
+        <img src="img/logo.png" alt="" class="logo" loading="lazy">
 
         <nav>
             <a class="nav-links" href="#home">Home</a>
@@ -45,7 +48,7 @@
         <canvas class="home-bg" aria-hidden="true"></canvas>
 
         <div class="home-cont">
-            <div class="home-cont-child">
+            <div class="home-cont-child" data-aos="fade-right" data-aos-duration="1000">
                 <div class="asj-kecil">
                     Administrasi Sistem Jaringan • ASJ
                 </div>
@@ -77,11 +80,10 @@
                 </div>
             </div>
 
-            <div class="home-cont-child">
+            <div class="home-cont-child" data-aos="fade-left" data-aos-delay="300">
                 <div class="home-img-cont" aria-label="profile-image">
                     <div class="home-img-cont-2">
-                        <img src="img/ajun.png"
-                            alt="gambar">
+                        <img src="img/ajun.png" alt="gambar">
                     </div>
                 </div>
 
@@ -91,35 +93,35 @@
 
     <!-- section about -->
     <section id="about" class="about">
-        <h2 class="about-title"><span>About</span> Me</h2>
+        <h2 class="about-title" data-aos="fade-up"><span>About</span> Me</h2>
         <div class="about-cont">
 
-            <div class="about-cont-child">
+            <div class="about-cont-child" data-aos="fade-up" data-aos-delay="300">
                 <div class="about-cont-child-2">Nama Lengkap</div>
                 <p>Raditya Arjun Fayyadhin</p>
             </div>
 
-            <div class="about-cont-child">
+            <div class="about-cont-child" data-aos="fade-up" data-aos-delay="600">
                 <div class="about-cont-child-2">Umur</div>
                 <p>18 Tahun</p>
             </div>
 
-            <div class="about-cont-child">
+            <div class="about-cont-child" data-aos="fade-up" data-aos-delay="900">
                 <div class="about-cont-child-2">Status</div>
                 <p>Pelajar</p>
             </div>
 
-            <div class="about-cont-child">
+            <div class="about-cont-child" data-aos="fade-up" data-aos-delay="1200">
                 <div class="about-cont-child-2">Hobi</div>
                 <p>Game & Musik</p>
             </div>
 
-            <div class="about-cont-child">
+            <div class="about-cont-child" data-aos="fade-up" data-aos-delay="1500">
                 <div class="about-cont-child-2">Makanan Favorit</div>
-                <p>Nasi Goreng</p>
+                <p>Mie Ayam, Nasi Goreng</p>
             </div>
 
-            <div class="about-cont-child">
+            <div class="about-cont-child" data-aos="fade-up" data-aos-delay="1800">
                 <div class="about-cont-child-2">Alamat</div>
                 <p>Jalan Cipedak Raya, Srengseng Sawah, Jagakarsa, Jakarta Selatan</p>
             </div>
@@ -130,7 +132,8 @@
     <footer>
         <div class="footer-cont">
             <img src="img/logo.png" loading="lazy" class="logo"></img>
-            <p class="footer-desc">Demikian website ini untuk memenuhi tugas mata pelajaran Administrasi Sistem Jaringan (ASJ).</p>
+            <p class="footer-desc">Demikian website ini dibuat untuk memenuhi tugas mata pelajaran Administrasi Sistem Jaringan
+                (ASJ).</p>
         </div>
 
         <div class="footer-cont">
@@ -141,7 +144,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <button class="footer-btn">Materi <i class="fa-solid fa-caret-down caret"></i>
-                
+
                     <div class="footer-btn-cont">
                         <a href="control.html">Control Panel</a>
                         <a href="hosting.html">Hosting</a></a>
@@ -155,20 +158,10 @@
             <hr>
 
             <ul class="footer-list-sm">
-                <li><a href="https://www.instagram.com/raditya_fayyadhin/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.instagram.com/raditya_fayyadhin/"><i class="fa-brands fa-instagram"></i></a>
+                </li>
                 <li><a href="https://www.facebook.com/raditya.fayyadhin"><i class="fa-brands fa-youtube"></i></a></li>
             </ul>
-        </div>
-
-        <div class="footer-cont">
-            <h3>Tinggalkan Pesan</h3>
-            <hr>
-
-            <form class="footer-form">
-                <input type="text" placeholder="Nama kamu" required>
-                <textarea placeholder="Pesan" required></textarea>
-                <button type="submit">Kirim</button>
-            </form>
         </div>
 
         <div class="copyright">&copy; 2025 Raditya Arjun Fayyadhin</div>
@@ -177,6 +170,19 @@
 
     <!-- script -->
     <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            AOS.init({
+                duration: 800,
+                easing: 'ease-out-cubic',
+                once: true,
+                mirror: false
+            });
+        });
+    </script>
+
 </body>
 
 </html>

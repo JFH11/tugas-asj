@@ -3,6 +3,7 @@
     width: 100%;
     height: auto;
     padding: 5rem 0;
+    gap: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,10 +13,11 @@
 .pengertian-cpanel {
     position: relative;
     width: 70%;
-    margin: 5rem 0 10rem 0;
-    height: max-content;
+    height: auto;
+    padding: 5rem 0;
     text-align: right;
-}
+    margin-top: 5rem;
+    }
 
 .pengertian-cpanel h1 {
     position: relative;
@@ -36,8 +38,8 @@
 .dasar-cpanel {
     position: relative;
     width: 70%;
-    margin-bottom: 10rem;
     height: max-content;
+    padding: 5rem 0;
     text-align: left;
 }
 
@@ -96,8 +98,8 @@
 .jenis-cpanel {
     position: relative;
     width: 70%;
-    margin-bottom: 10rem;
     height: max-content;
+    padding: 5rem 0;
     text-align: center;
 }
 
@@ -143,7 +145,7 @@
 .contoh-cpanel {
     position: relative;
     width: 70%;
-    margin-bottom: 10rem;
+    padding: 5rem 0;
     height: max-content;
     text-align: left;
 }
@@ -157,31 +159,6 @@
 }
 
 .contoh-cpanel p {
-    position: relative;
-    font-size: 1rem;
-    color: var(--desc);
-    font-family: var(--poppins);
-    margin-bottom: 1rem;
-}
-
-/* kesimpulan */
-.kesimpulan-cpanel {
-    position: relative;
-    width: 70%;
-    margin-bottom: 10rem;
-    height: max-content;
-    text-align: left;
-}
-
-.kesimpulan-cpanel h1 {
-    position: relative;
-    font-size: 2.5rem;
-    font-weight: 800;
-    color: var(--putih);
-    font-family: var(--poppins);
-}
-
-.kesimpulan-cpanel p {
     position: relative;
     font-size: 1rem;
     color: var(--desc);
