@@ -1,0 +1,111 @@
+.h-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.h-card {
+    position: relative;
+    padding-top: 5rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15%;
+}
+
+.h-card h1 {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--putih);
+    font-family: var(--poppins);
+}
+
+.h-card-2 {
+    position: relative;
+    width: 100%;
+    margin: 10rem 0;
+}
+
+.h-card p {
+    position: relative;
+    font-size: 1rem;
+    color: var(--desc);
+    font-family: var(--poppins);
+    margin-bottom: 0.5rem;
+}
+
+.h-card-2 h1 {
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--putih);
+    font-family: var(--poppins);
+}
+
+.h-card-2 p {
+    text-align: left;
+    position: relative;
+    font-size: 1rem;
+    color: var(--desc);
+    font-family: var(--poppins);
+    margin-bottom: 0.5rem;
+}
+
+.manfaat {
+    color: var(--desc);
+    font-weight: 500;
+    font-size: 0.85rem;
+    font-family: var(--poppins);
+}
+
+#h-title,
+#h-desc {
+    text-align: center;
+}
+
+#h-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--putih);
+    font-family: var(--poppins);
+}
+
+.jenis-container {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+
+.jenis-card {
+    position: relative;
+    background: var(--glass);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.jenis-card h3 {
+    color: var(--accent);
+    font-family: var(--poppins);
+    font-size: 1rem;
+}
+
+.jenis-card p {
+    color: var(--desc);
+    font-family: var(--poppins);
+    font-size: 0.8rem;
+}
+
+#fungsi {
+    margin-bottom: 10rem;
+}

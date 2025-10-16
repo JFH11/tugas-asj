@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrasi Sistem Jaringan • XII TKJ D</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=BBH+Sans+Hegarty&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b0ce53bf51.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <img src="img/logo.png" alt="" class="logo">
+
+        <nav>
+            <a class="nav-links" href="#home">Home</a>
+            <a class="nav-links" href="#about">About</a>
+            <button class="hdr-btn">Materi <i class="fa-solid fa-caret-down caret"></i>
+                <div class="hdr-btn-cont">
+                    <a href="control.html">Control Panel</a>
+                    <a href="hosting.html">Hosting</a>
+                </div>
+            </button>
+
+        </nav>
+    </header>
+
+    <!-- section home -->
+    <section id="home" class="home">
+
+        <!-- background canvas -->
+        <canvas class="home-bg" aria-hidden="true"></canvas>
+
+        <div class="home-cont">
+            <div class="home-cont-child">
+                <div class="asj-kecil">
+                    Administrasi Sistem Jaringan • ASJ
+                </div>
+
+                <h1 class="home-title">
+                    Raditya Arjun <span class="accent">Fayyadhin</span>
+                </h1>
+
+                <p class="home-lead">
+                    Pelajar SMK — fokus pada jaringan & server. Website ini dibuat untuk memenuhi tugas mata pelajaran
+                    ASJ,
+                    sekaligus sebagai portofolio kecil yang menampilkan kemampuan dasar administrasi sistem jaringan.
+                </p>
+
+                <div class="home-list-cont">
+                    <div class="home-list"><strong>Sekolah : </strong>SMK 3 Perguruan Cikini</strong></div>
+                    <div class="home-list"><strong>Jurusan : </strong>Teknik Komputer & Jaringan</div>
+                    <div class="home-list"><strong>Minat : </strong>Fullstack Web Developer, Cyber Security </div>
+                </div>
+
+                <div class="home-cta">
+                    <button id="contact" class="home-button">
+                        <span>Contact Me</span>
+                        <svg fill="none" viewBox="0 0 24 24" class="arrow">
+                            <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2" stroke="currentColor"
+                                d="M5 12h14M13 6l6 6-6 6"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <div class="home-cont-child">
+                <div class="home-img-cont" aria-label="profile-image">
+                    <div class="home-img-cont-2">
+                        <img src="img/ajun.png"
+                            alt="gambar">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- section about -->
+    <section id="about" class="about">
+        <h2 class="about-title"><span>About</span> Me</h2>
+        <div class="about-cont">
+
+            <div class="about-cont-child">
+                <div class="about-cont-child-2">Nama Lengkap</div>
+                <p>Raditya Arjun Fayyadhin</p>
+            </div>
+
+            <div class="about-cont-child">
+                <div class="about-cont-child-2">Umur</div>
+                <p>18 Tahun</p>
+            </div>
+
+            <div class="about-cont-child">
+                <div class="about-cont-child-2">Status</div>
+                <p>Pelajar</p>
+            </div>
+
+            <div class="about-cont-child">
+                <div class="about-cont-child-2">Hobi</div>
+                <p>Game & Musik</p>
+            </div>
+
+            <div class="about-cont-child">
+                <div class="about-cont-child-2">Makanan Favorit</div>
+                <p>Nasi Goreng</p>
+            </div>
+
+            <div class="about-cont-child">
+                <div class="about-cont-child-2">Alamat</div>
+                <p>Jalan Cipedak Raya, Srengseng Sawah, Jagakarsa, Jakarta Selatan</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-cont">
+            <img src="img/logo.png" loading="lazy" class="logo"></img>
+            <p class="footer-desc">Demikian website ini untuk memenuhi tugas mata pelajaran Administrasi Sistem Jaringan (ASJ).</p>
+        </div>
+
+        <div class="footer-cont">
+            <h3>Peta Situs</h3>
+            <hr>
+
+            <ul class="footer-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <button class="footer-btn">Materi <i class="fa-solid fa-caret-down caret"></i>
+                
+                    <div class="footer-btn-cont">
+                        <a href="control.html">Control Panel</a>
+                        <a href="hosting.html">Hosting</a></a>
+                    </div>
+                </button>
+            </ul>
+        </div>
+
+        <div class="footer-cont">
+            <h3>Media Sosial</h3>
+            <hr>
+
+            <ul class="footer-list-sm">
+                <li><a href="https://www.instagram.com/raditya_fayyadhin/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/raditya.fayyadhin"><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="footer-cont">
+            <h3>Tinggalkan Pesan</h3>
+            <hr>
+
+            <form class="footer-form">
+                <input type="text" placeholder="Nama kamu" required>
+                <textarea placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </div>
+
+        <div class="copyright">&copy; 2025 Raditya Arjun Fayyadhin</div>
+    </footer>
+
+
+    <!-- script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
